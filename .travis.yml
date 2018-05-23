@@ -1,7 +1,3 @@
-branches:
-  only:
-    - /pr-.*/
-    
 matrix:
   include:
     - env: EXIT_CODE=0
