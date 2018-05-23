@@ -1,6 +1,6 @@
 branches:
   only:
-    - /^pr-/
+    - /pr-/
     
 matrix:
   include:
