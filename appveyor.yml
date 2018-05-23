@@ -1,5 +1,9 @@
 clone_depth: 1
 
+branches:
+  only:
+    - /^pr-/
+    
 install:
 - ps: >-
     echo install
