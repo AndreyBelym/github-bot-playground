@@ -1,3 +1,4 @@
+matrix:
  include:
   - env: EXIT_CODE=0
   - env: EXIT_CODE=1
