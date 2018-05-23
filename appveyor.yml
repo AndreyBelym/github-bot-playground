@@ -2,7 +2,7 @@ clone_depth: 1
 
 branches:
   only:
-    - /^pr-.*/
+    - /pr-.*/
     
 install:
 - ps: >-
@@ -11,5 +11,5 @@ install:
 build: off
 
 test_script:
-- ps: start-sleep 120; exit 0
+- ps: exit
 
