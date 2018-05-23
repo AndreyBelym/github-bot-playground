@@ -1,5 +1,5 @@
 clone_depth: 1
-
+    
 install:
 - ps: >-
     echo install
@@ -7,5 +7,5 @@ install:
 build: off
 
 test_script:
-- ps: start-sleep 120; exit 0
+- ps: start-sleep 120; echo done
 

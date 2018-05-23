@@ -1,8 +1,8 @@
 matrix:
- include:
-  - env: EXIT_CODE=0
-  - env: EXIT_CODE=1
-  - env: EXIT_CODE=0
-  - env: EXIT_CODE=1
+  include:
+    - env: EXIT_CODE=0
+    - env: EXIT_CODE=1
+    - env: EXIT_CODE=0
+    - env: EXIT_CODE=1
 install: true
 script: sleep 120; exit $EXIT_CODE
